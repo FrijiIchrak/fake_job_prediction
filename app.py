@@ -464,11 +464,9 @@ def show_predict_page():
 
 
 
-page = st.sidebar.selectbox("Explore Or Predict Or Else", ("Understanding the Data","Compare Models","Predict"))
+page = st.sidebar.selectbox("Explore Or Predict Or Else", ("Understanding the Data","Predict"))
 
 if page == "Understanding the Data":
     show_explore_page()
-elif page == "Compare Models":
-    compare_model_page()
 elif page == "Predict":
     show_predict_page()
