@@ -9,8 +9,9 @@ WORKDIR /app
 COPY requirements.txt .
 
 RUN pip install --upgrade pip
-RUN pip install --default-timeout=100 --retries=10 --no-cache-dir --force-reinstall -r requirements.txt
-RUN python -m spacy download en_core_web_sm
+RUN pip install -r requirements.txt \
+ && python -m spacy download en_core_web_sm
+
 
 
 # Copy your application code
