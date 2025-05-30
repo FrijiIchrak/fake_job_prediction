@@ -18,5 +18,6 @@ We are hiring a marketing coordinator to assist in the planning and execution of
 
 
 A leading e-commerce company is seeking a UX/UI designer with a strong portfolio in mobile interfaces. Remote work possible. Must be proficient in Figma or Adobe XD. Competitive benefits and opportunities for advancement.
+Link: https://fake-job-prediction.onrender.com/
 
 
